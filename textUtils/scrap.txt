@@ -1,0 +1,24 @@
+#     # file = open("C:/Users/User/Desktop/Pycharm/textUtils/textUtils/display.txt","r")
+#     # rd = file.read()
+#     # file.close()
+#     # return HttpResponse(rd)
+#     # website display
+#     # link1 = "https://www.facebook.com"
+#     # link2 = "https://www.youtube.com"
+#     # link3 = "https://www.twitter.com"
+#     # "<h1>Areeb</h1>"
+#     #                         "<ul style='list-style-type:none'>"
+#     #                             "<li>"
+#     #                                 "<a href='https://www.facebook.com' target='_blank'>Facebook</a>"
+#     #                             "</li>"
+#     #                             "<li>"
+#     #                                 "<a href='https://www.youtube.com' target='_blank'>Youtube</a>"
+#     #                             "</li>"
+#     #                             "<li>"
+#     #                                 "<a href='https://www.instagram.com' target='_blank'>Instagram</a>"
+#     #                             "</li>"
+#     #                         "</ul>"
+#     return HttpResponse("<h1>Hello</h1>")
+#
+# def about(request):
+#     return HttpResponse("<h1>About Areeb!</h1><a href='/'>Home</a>")
