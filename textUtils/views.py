@@ -65,15 +65,6 @@ def analyze(request):
         djtext = analyzed
         # return render(request, "analyze.html", params);
 
-    # # Count chars from text
-    # if charCount == "on":
-    #     analyzed = ""
-    #     # length of the text
-    #     analyzed = len(djtext)
-    #     params = {"purpose": "Counting characters", "analyzed_text": analyzed}
-    #     # Analyze the text
-        # djtext = analyzed
-
     if removePunc != "on" and capit != "on" and spaceRemover != "on" and newLineRemover != "on":
         return HttpResponse("Please select any operation")
 
